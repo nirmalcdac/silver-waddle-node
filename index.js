@@ -1,5 +1,5 @@
 function getMeString(name) {
-    return "Hello", name
+    return "Hello " + name
 }
 
-module.exports.getMeString = getMeString()
+module.exports.getMeString = getMeString;
